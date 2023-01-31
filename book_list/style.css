@@ -498,6 +498,7 @@ nav {
 
 .search-box .fas {
     font-size: 40px;
+    color: var(--main-color);
 }
 
 /* END OF SEARCH BOX */
