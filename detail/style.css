@@ -324,6 +324,10 @@ u {
     cursor: pointer;
 }
 
+.link:hover {
+    color: #856C8B;
+}
+
 /* END BOOKS CONTENT */
 
 
