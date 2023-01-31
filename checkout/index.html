@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item" id="logo"><a href="../index.html"><img src="../Assets/Logo 2.png" alt=""></a></li>
+                <li class="nav-item"><a href="../login/index.html">Login</a></li>
+                <li class="nav-item"><a href="#">Locations</a></li>
+                <li class="nav-item"><a href="#">Get a Library Card</a></li>
+                <li class="nav-item" id="about"><a href="../about/index.html">About Us</a></li>
+                <li class="nav-item"><button class="btn-primary">Donate</button></li>
+            </ul>
+        </nav>
+        <div id="ribbon">
+            <button><i class='fas fa-stream'></i> Check out list</button>
+        </div>
+        <div id="search">
+            <div class="box">
+                <input type="text" placeholder="Search">
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <button>Filter</button>
+        </div>
+        <main>
+            <table>
+                <tr>
+                    <th><i class='far fa-circle'></i> <i class='fas fa-chevron-down'></i></th>
+                    <th>Name</th>
+                    <th>Barcode Number</th>
+                    <th>Return Date</th>
+                    <th>Pickup Date</th>
+                    <th>Actual Return Date</th>
+                    <th>Overdue Fee</th>
+                </tr>
+                <tr>
+                    <th>1 <i class='far fa-star'></i></th>
+                    <td>Book 1</td>
+                    <td>234516162545267182182112</td>
+                    <td>01/02/2023</td>
+                    <td>01/02/2023</td>
+                    <td>Pending</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <th>2 <i class='far fa-star'></i></th>
+                    <td>Book 2</td>
+                    <td>234516162545267182182112</td>
+                    <td>10/14/2022</td>
+                    <td>10/04/2022</td>
+                    <td class="red">01/04/2023</td>
+                    <td class="red">$5.5</td>
+                </tr>
+                <tr>
+                    <th>3 <i class='far fa-star'></i></th>
+                    <td>Book 3</td>
+                    <td>234516162545267182182112</td>
+                    <td>08/19/2022</td>
+                    <td>08/09/2022</td>
+                    <td class="red">09/09/2022</td>
+                    <td class="red">$2</td>
+                </tr>
+                <tr>
+                    <th>4 <i class='far fa-star'></i></th>
+                    <td>Book 4</td>
+                    <td>234516162545267182182112</td>
+                    <td>05/22/2023</td>
+                    <td>05/12/2023</td>
+                    <td>05/22/2023</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <th>5 <i class='far fa-star'></i></th>
+                    <td>Book 5</td>
+                    <td>234516162545267182182112</td>
+                    <td>04/22/2023</td>
+                    <td>03/22/2023</td>
+                    <td class="red">05/22/2023</td>
+                    <td class="red">$1</td>
+                </tr>
+            </table>
+        </main>
+    </div>
+    
+</body>
+</html>

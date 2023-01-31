@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item" id="logo"><a href="../index.html"><img src="../Assets/Logo 2.png" alt=""></a></li>
+                <li class="nav-item"><a href="../login/index.html">Login</a></li>
+                <li class="nav-item"><a href="#">Locations</a></li>
+                <li class="nav-item"><a href="#">Get a Library Card</a></li>
+                <li class="nav-item" id="about"><a href="../about/index.html">About Us</a></li>
+                <li class="nav-item"><button class="btn-primary">Donate</button></li>
+            </ul>
+        </nav>
+        <div id="title"><h1>Search: Catalog</h1></div>
+        <div id="search-box">
+            <div class="search-box">
+                <input type="text" placeholder="Search our catalog in any language">
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div> 
+        </div>
+        <div id="advance-search">
+            <div class="a-border">
+                <i class="fa fa-cog"></i> 
+                <a id="text" href="#">Advanced Search</a>
+            </div>
+        </div>
+        <div id="result-buttons">
+            <!-- <div class="btn"><button id="btn1">All Results (975,951)</button></div> -->
+            <button class="btn" id="btn1">All Results (975,951)</button>
+            <button class="btn" id="btn2">Catalog (5,29,991)</button>
+            <button class="btn" id="btn3"> Our Site (14,479)</button>
+            <button class="btn" id="btn4"> Events & Classes (4,807)</button>
+        </div>
+        <main>
+            <div id="side-bar">
+                <div id="catalog">
+                    <h2>Catalog Filters</h2>
+                    <div class="side-buttons">
+                        <button id="red">Available <br> Now</button>
+                        <button>Online <br> Only</button>
+                        <button>On <br> Order</button>
+                    </div>
+                </div>
+                <div id="age">
+                    <h2>Age</h2>
+                    <div class="side-buttons">
+                        <button id="red">Kids</button>
+                        <button>Teens</button>
+                        <button>Adults</button>
+                    </div>
+                </div>
+                <div id="format">
+                    <h2>Format</h2>
+                    <div class="side-buttons">
+                        <button id="red">Book</button>
+                        <button>eBook</button>
+                        <button>eAudiobook</button>
+                        <button>Online Journal</button>
+                        <button>DVD</button>
+                        <button>Photograph</button>
+                    </div>
+                    <p>show more formats <i class='fas fa-angle-down'></i></p>
+                </div>
+                <div id="tags">
+                    <h2>Tags</h2>
+                    <div class="box">
+                        <input type="text" placeholder="Browse related tags...">
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                </div>
+                </div>
+                <div id="language">
+                    <h2>Language</h2>
+                    <div class="lang-list">
+                        <input type="radio" name="option" value="English" id="English">
+                        <label for="English">English</label> <br>
+                        <input type="radio" name="option" value="Chinese" id="Chinese">
+                        <label for="Chinese">中文 | Chinese</label> <br>
+                        <input type="radio" name="option" value="Russian" id="Russion" >
+                        <label for="Russion">русский | Russian</label> <br>
+                        <input type="radio" name="option" value="Spanish" id="Spanish">
+                        <label for="Spanish">Español | Spanish</label> <br>
+                        <input type="radio" name="option" value="Polish" id="Poilish">
+                        <label for="Polish">Polskie | Polish</label> <br>
+                        <input type="radio" name="option" value="French" id="French">
+                        <label for="French">français | French</label> <br>
+                        <input type="radio" name="option" value="Hebrew" id="Hebrew">
+                        <label for="Hebrew">עִברִית | Hebrew</label>
+                        <p>show more languages <i class='fas fa-angle-down'></i></p>
+                    </div>
+                </div>
+            </div>
+            <div id="sort-box">
+                <select id="sort-container">
+                    <option value="actual value 1">Sort by - Most Popular</option>
+                    <option value="actual value 2">Display Text 2</option>
+                    <option value="actual value 3">Display Text 3</option>
+                  </select>
+            </div>
+            <div class="main-container" id="mcontainer1">
+                <div class="book" id="book1">
+                    <img src="../Assets/Jacket copy.jpeg" alt="">
+                </div>
+                <div class="desc">
+                    <!-- Description1 -->
+                    <article class="desc-main">
+                        <h3><strong>Search Catalog</strong></h3>
+                        <h2><a href="#">Diary of a wimpy kid: Dog Days</a></h2>
+                        <h3><strong class="a">Available Now</strong> at <strong>Bay Ridge Community Library</strong> and <strong class="b">7 others</strong> <i class='fas fa-angle-down'></i></h3>
+                        <p><strong>Author</strong>: Jeff Kinney: <strong>Call Number</strong>: J FIC KINNEY <strong>Published</strong>:2009</p>
+                        <p>In the latest diary of middle-schooler Greg Heffley, he records his attempts to spend his summer vacation sensibly indoors playing video games and watching television, despite his mother's other ideas.</p>
+                        <div class="desc-button">
+                            <button>Chapter books</button>
+                            <button>Children's stories</button>
+                            <button>Diaries</button>
+                            <button>Diary Fiction</button>
+                            <button>Domestic fiction</button>
+                            <button>Friendship</button>
+                            <button>Humorous fiction</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="main-container" id="mcontainer2">
+                <div class="book" id="book2">
+                    <img src="../Assets/Jacket (1).jpeg" alt="">
+                </div>
+                <div class="desc">
+                    <article class="desc-main">
+                    <h3><strong>Search Catalog</strong></h3>
+                    <h2><a href="#">Diary of a wimpy kid: Rodrick Rules</a></h2>
+                    <h3><strong class="a">Available Now</strong> at <strong>Bay Ridge Community Library</strong> and <strong class="b">7 others</strong> <i class='fas fa-angle-down'></i></h3>
+                    <p><strong>Author</strong>: Jeff Kinney: <strong>Call Number</strong>: J FIC KINNEY <strong>Published</strong>:2009</p>
+                    <p>In the latest diary of middle-schooler Greg Heffley, he records his attempts to spend his summer vacation sensibly indoors playing video games and watching television, despite his mother's other ideas.</p>
+                    <div class="desc-button">
+                        <button>Chapter books</button>
+                        <button>Children's stories</button>
+                        <button>Diaries</button>
+                        <button>Diary Fiction</button>
+                        <button>Domestic fiction</button>
+                        <button>Friendship</button>
+                        <button>Humorous fiction</button>
+                    </div>
+                </article>
+                </div>
+            </div>
+            <div class="main-container" id="mcontainer3">
+                <div class="book" id="book3">
+                    <img src="../Assets/Jacket-green.jpeg" alt="">
+                </div>
+                <div class="desc">
+                    <article class="desc-main">
+                        <h3><strong>Search Catalog</strong></h3>
+                        <h2><a href="#">Diary of a wimpy kid: The Last Straw</a></h2>
+                        <h3><strong class="a">Available Now</strong> at <strong>Bay Ridge Community Library</strong> and <strong class="b">7 others</strong> <i class='fas fa-angle-down'></i></h3>
+                        <p><strong>Author</strong>: Jeff Kinney: <strong>Call Number</strong>: J FIC KINNEY <strong>Published</strong>:2009</p>
+                        <p>In the latest diary of middle-schooler Greg Heffley, he records his attempts to spend his summer vacation sensibly indoors playing video games and watching television, despite his mother's other ideas.</p>
+                        <div class="desc-button">
+                            <button>Chapter books</button>
+                            <button>Children's stories</button>
+                            <button>Diaries</button>
+                            <button>Diary Fiction</button>
+                            <button>Domestic fiction</button>
+                            <button>Friendship</button>
+                            <button>Humorous fiction</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

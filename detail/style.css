@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+    --main-padding-left: 200px;
+    --main-color: #22235F;
+    --bg-hover-color: #856C8B;
+    --text-color: #fff;
+    --clr-gray100: #f0f7f8;
+    --clr-gray200: #cfd8dc;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    background: var(--clr-gray100);
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-rows: .2fr .2fr .2fr .2fr .2fr .2fr .2fr;
+    grid-template-areas:
+        "nav"
+        "title"
+        "main"
+        "summary"
+        "ratings"
+        "review"
+        "tag"
+        "books";
+    gap: 0.2rem;
+}
+
+nav {
+    background: var(--clr-gray100);
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+#title {
+    background: var(--clr-gray100);
+    color: var(--main-color);
+    grid-area: title;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+}
+
+/* TITLE */
+#title h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--main-color);
+}
+
+/* END OF TITLE */
+
+main {
+    background: var(--clr-gray100);
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+    /* margin-top: 5px; */
+
+    display: grid;
+    grid-template-columns: .45fr 1fr;
+
+    grid-template-areas:
+        "book-img book-detail";
+    gap: .2rem;
+}
+
+/* MAIN CONTENT  */
+#book-image {
+    grid-area: book-img;
+    background: var(--clr-gray100);
+}
+
+#book-detail {
+    grid-area: book-detail;
+    background: var(--clr-gray100);
+    color: var(--main-color);
+    margin-right: 50%;
+}
+
+.top-button {
+    background: var(--main-color);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.middle-button {
+    background: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    padding: 6px;
+    font-size: small;
+    border-radius: 10px;
+}
+
+#book-detail p {
+    font-size: 14px;
+}
+
+/* END MAIN CONTENT  */
+
+#summary {
+    background: var(--clr-gray100);
+    grid-area: summary;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+    color: var(--main-color);
+    /* margin-right: 28%; */
+}
+
+/* SUM CONTENT  */
+
+.sum-details {
+    margin-right: 30%;
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.sum-details {
+    font-size: 13px;
+}
+
+/* END SUM CONTENT  */
+
+#ratings {
+    background: var(--clr-gray100);
+    color: var(--main-color);
+    grid-area: ratings;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+}
+
+/* RATINGS CONTENT  */
+.checked {
+    color: gold;
+    font-size: 35px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.stars button {
+    background: white;
+    margin-left: auto;
+    order: 2;
+    padding: 5px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+/* END RATINGS CONTENT  */
+
+#review {
+    background: var(--clr-gray100);
+    color: var(--main-color);
+    grid-area: review;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+}
+
+/* Review CONTENT */
+
+.fa-star {
+    color: gold;
+}
+
+.reviews {
+    margin-right: 30%;
+    font-size: 15px;
+    border-bottom: 2px solid var(--main-color);
+}
+
+u {
+    cursor: pointer;
+}
+
+#dark {
+    color: rgb(185, 179, 179);
+    /* text-shadow: 0 0 3px gold; */
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.more p {
+    cursor: pointer;
+}
+
+/* END REVIEW CONTENT */
+
+#tag {
+    background: var(--clr-gray100);
+    color: var(--main-color);
+    grid-area: tag;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+}
+
+/* TAGS CONTENT */
+.tag-buttons {
+    padding-bottom: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.tag-buttons button {
+    background: white;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 6px;
+}
+
+/* END TAGS CONTENT */
+
+#books {
+    background: var(--clr-gray100);
+    grid-area: books;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    padding-left: var(--main-padding-left);
+    display: grid;
+    grid-row: .25fr 1fr;
+    grid-template-areas:
+        "book-title"
+        "book-cover";
+    gap: .2rem;
+    color: var(--main-color);
+}
+
+/* BOOKS CONTENT */
+#book-title {
+    grid-area: book-title;
+    background: var(--clr-gray100);
+}
+
+#book-covers {
+    grid-area: book-cover;
+    background: var(--clr-gray100);
+    display: grid;
+    grid-column: .2fr .2fr .2fr;
+    grid-template-areas:
+        "book-1 book-2 book-3";
+    gap: .2rem;
+}
+
+#book1 {
+    grid-area: book-1;
+    /* padding-right: 10px; */
+}
+
+#pic1 {
+    display: flex;
+    justify-content: center;
+}
+
+#book2 {
+    grid-area: book-2;
+    /* margin-right: 10px; */
+}
+
+#pic2 {
+    display: flex;
+    justify-content: center;
+}
+
+#book3 {
+    grid-area: book-3;
+    /* margin-right: 10px; */
+}
+
+#pic3 {
+    display: flex;
+    justify-content: center;
+}
+
+.book-cover {
+    width: 130px;
+    height: 200px;
+}
+
+
+#pic2 img {
+    width: 150px;
+    height: 200px;
+}
+
+
+#pic3 img {
+    width: 150px;
+    height: 200px;
+}
+
+.link {
+    cursor: pointer;
+}
+
+/* END BOOKS CONTENT */
+
+
+
+/* NAV BAR */
+nav {
+    position: fixed;
+    width: 98.9vw;
+    top: 0;
+}
+
+.nav-list {
+    /* background-color: white; */
+    /* set x and y to 0 and blur of 10 */
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    border-bottom: 2px solid var(--main-color);
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    /* pushes all the content to the right */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+#logo img {
+    width: 317px;
+    height: 36px;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--main-color);
+    transition: all 200ms ease-in;
+}
+
+.nav-item a:hover {
+    color: var(--bg-hover-color);
+}
+
+/* how to move the logo to the left */
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.btn-primary {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background: var(--main-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: var(--radius);
+    /* .5rem for top/botton and 1rem for left and right padding */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn-primary:hover {
+    background: var(--bg-hover-color);
+}
+
+/* END OF NAV BAR */
