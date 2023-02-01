@@ -65,7 +65,7 @@ input[type=submit] {
     width: 15%;
     background: var(--main-color);
     color: var(--clr-gray200);
-    margin-left: 160px;
+    margin-left: 152px;
     cursor: pointer;
 }
 
