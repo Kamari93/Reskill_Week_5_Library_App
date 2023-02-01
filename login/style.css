@@ -78,6 +78,10 @@ input[type=submit] {
     color: var(--main-color);
 }
 
+.log-bottom a:hover {
+    color: #856C8B;
+}
+
 /* END Login CONTENT */
 
 
