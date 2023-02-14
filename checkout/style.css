@@ -304,6 +304,10 @@ nav {
 
 /* Main Content Responsive */
 @media (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
     #ribbon {
         padding-left: 0;
     }
