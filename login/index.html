@@ -7,17 +7,26 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <div class="container">
         <nav>
             <ul class="nav-list">
-                <li class="nav-item" id="logo"><a href="../index.html"><img src="../Assets/Logo 2.png" alt=""></a></li>
-                <li class="nav-item" id="red"><a href="#">Login</a></li>
-                <li class="nav-item"><a href="#">Locations</a></li>
-                <li class="nav-item"><a href="#">Get a Library Card</a></li>
-                <li class="nav-item" id="about"><a href="../about/index.html">About Us</a></li>
-                <li class="nav-item"><button class="btn-primary">Donate</button></li>
+                <li class="nav-item logo" id="logo"><a href="../index.html"><img src="../Assets/Logo 2.png" alt=""></a></li>
+                <ul class="links">
+                    <li class="nav-item" id="red"><a href="#">Login</a></li>
+                    <li class="nav-item"><a href="#">Locations</a></li>
+                    <li class="nav-item"><a href="#">Get a Library Card</a></li>
+                    <li class="nav-item"><a href="../book_list/index.html">Book List</a></li>
+                    <li class="nav-item"><a href="../detail/index.html">Book Descriptions</a></li>
+                    <li class="nav-item"><a href="../checkout/index.html">Check Out</a></li>
+                    <li class="nav-item" id="about"><a href="../about/index.html">About Us</a></li>
+                    <li class="nav-item"><button class="btn-primary">Donate</button></li>
+                </ul>
+                <div class="bx bx-menu" id="menu-icon"></div>
             </ul>
         </nav>
         <div id="log-in">
@@ -49,6 +58,7 @@
         </div>
         </div>
     </div>
-    
+    <!-- js link -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
