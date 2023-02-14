@@ -195,6 +195,7 @@ main {
 
 .search-box .fas {
     font-size: 40px;
+    color: var(--main-color);
 }
 
 #search-link {
