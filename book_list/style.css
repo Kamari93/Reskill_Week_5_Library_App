@@ -612,7 +612,7 @@ select {
 
 
 /* RESPONSIVE */
-@media (max-width: 1020px) {
+@media (max-width: 1200px) {
 
     /* Responsive Navbar */
     #menu-icon {
