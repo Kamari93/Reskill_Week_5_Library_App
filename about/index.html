@@ -7,17 +7,26 @@
     <title>About</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <div class="container">
-        <nav>
+        <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item" id="logo"><a href="../index.html"><img src="../Assets/Logo 2.png" alt=""></a></li>
-                <li class="nav-item"><a href="../login/index.html">Login</a></li>
-                <li class="nav-item"><a href="#">Locations</a></li>
-                <li class="nav-item"><a href="#">Get a Library Card</a></li>
-                <li class="nav-item" id="about"><a href="../about/index.html">About Us</a></li>
-                <li class="nav-item"><button class="btn-primary">Donate</button></li>
+                <li class="nav-item logo" id="logo"><a href="../index.html"><img src="../Assets/Logo 2.png" alt=""></a></li>
+                <ul class="links">
+                    <li class="nav-item" id="red"><a href="../login/index.html">Login</a></li>
+                    <li class="nav-item"><a href="#">Locations</a></li>
+                    <li class="nav-item"><a href="#">Get a Library Card</a></li>
+                    <li class="nav-item"><a href="../book_list/index.html">Book List</a></li>
+                    <li class="nav-item"><a href="../detail/index.html">Book Descriptions</a></li>
+                    <li class="nav-item"><a href="../checkout/index.html">Check Out</a></li>
+                    <li class="nav-item" id="about"><a href="../about/index.html">About Us</a></li>
+                    <li class="nav-item"><button class="btn-primary">Donate</button></li>
+                </ul>
+                <div class="bx bx-menu" id="menu-icon"></div>
             </ul>
         </nav>
         <div id="title">
@@ -25,12 +34,12 @@
             <h2>120 Locations: in New York City</h2>
         </div>
         <main>
-            <div id="main-content1">
+            <div id="main-content1" class="main-content">
                 <h2>Patience and Fortitude for All New Yorkers</h2>
                 <p>Since its founding in 1995, The Community Library has unwaveringly served New York City, no matter the circumstances. The COVID-19 pandemic brought forth unprecedented challenges for our city and our patrons. But as it has always done, the Library quickly adapted to ensure communities could still access the information and resources they needed. While constantly monitoring the rapidly changing circumstances, the Library increased its core digital services—from e-book access to online learning support for students, remote research services, online programs, and virtual one-on-one job support. And as soon as it could, the Library reopened all available branch locations across the Bronx, Manhattan, Queens, Brooklyn and Staten Island in phases to ensure that New Yorkers could access the services and resources they rely on.</p>
                 <p>The Library was founded on the ideals of free and open access to knowledge and opportunity for everyone. The challenges of 2020 and 2021 did not deter, but rather reaffirmed NYPL’s central objective to serve New Yorkers through even the most turbulent times—a testament to the enduring legacy of the Library as one of the city’s most essential civic institutions.</p>
             </div>
-            <div id="main-content2"></div>
+            <div id="main-content2" class="main-content"></div>
         </main>
         <div id="sidebar">
             <!-- Sidebar -->
@@ -53,5 +62,7 @@
         <div id="content3"></div>
         <div id="content2"></div>
     </div>
+    <!-- js link -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

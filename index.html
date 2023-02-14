@@ -4,124 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
-    
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <nav>
-        <ul class="nav-list">
-            <li class="nav-item logo"><a href="#"><img src="./Assets/Logo 2.png" alt=""></a></li>
-            <li class="nav-item"><a href="./login/index.html">Login</a></li>
-            <li class="nav-item"><a href="#">Locations</a></li>
-            <li class="nav-item"><a href="#">Get a Library Card</a></li>
-            <li class="nav-item"><a href="./about/index.html">About Us</a></li>
-            <li class="nav-item"><button class="btn-primary">Donate</button></li>
-        </ul>
-    </nav>
-    <div class="search-container">
-        <div class="search-box">
-            <input type="text" placeholder="Search a book, catalog, and events...">
-            <a href="#">
-                <i class="fas fa-search"></i>
-            </a>
-        </div> 
-        <div class="browse-link"><a href="#">Browse the catalog</a></div>
-    </div>
-    <!-- <div class="book-ribbon book">
-        <h2>Popular Books of 2023</h2>
-    </div>
-
-    <div class="book-ribbon container">
-        <article>
-            <img src="./Assets/Jacket.jpeg" alt="">
-            <div class="text">
-                <h3>Just another love song</h3>
-                <p>Kerry Winfrey</p>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item logo" id="logo"><a href="index.html"><img src="./Assets/Logo 2.png" alt=""></a></li>
+                <ul class="links">
+                    <li class="nav-item" id="red"><a href="./login/index.html">Login</a></li>
+                    <li class="nav-item"><a href="#">Locations</a></li>
+                    <li class="nav-item"><a href="#">Get a Library Card</a></li>
+                    <li class="nav-item"><a href="./book_list/index.html">Book List</a></li>
+                    <li class="nav-item"><a href="./detail/index.html">Book Descriptions</a></li>
+                    <li class="nav-item"><a href="./checkout/index.html">Check Out</a></li>
+                    <li class="nav-item" id="about"><a href="./about/index.html">About Us</a></li>
+                    <li class="nav-item"><button class="btn-primary">Donate</button></li>
+                </ul>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </ul>
+        </nav>
+        <main>
+            <div id="search">
+                <div class="search-box">
+                    <input type="text" placeholder="Search a book, catalog, and events...">
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
             </div>
-        </article>
-    </div> -->
-
-    <div class="grid">
-        <div class="banner">
-            <h2>Popular Books of 2023</h2>
-        </div>
-        <div class="books-container">
-        <div class="book-items">
-            <article>
-                <div class="book-image"><img src="./Assets/Jacket.jpeg" alt=""></div>
-                <div class="text">
-                    <h3>Just another love song</h3>
-                    <p>Kerry Winfrey</p>
+            <div id="search-link">
+                <a href="#"><h3>Browse the catalog</h3></a>
+            </div>
+        </main>
+        <div id="bottom">
+            <div id="ribbon"><h1>Popular Books of 2023.</h1></div>
+            <div id="books">
+                <div id="book1" class="bks">
+                    <div class="pic">
+                        <img src="./Assets/Jacket.jpeg" alt="">
+                    </div>
+                    <div class="title">
+                        <p>
+                            <strong>Just another love song</strong><br>
+                            Kerry Winfrey
+                        </p>
+                    </div>
                 </div>
-            </article>
-
-            <article>
-                <div class="book-image"><img src="./Assets/Jacket (1) 1.jpg" alt=""></div> 
-                <div class="text">
-                    <h3>Pete the cat and the bedtime blues</h3>
-                    <p>Kim Dean</p>
+                <div id="book2" class="bks">
+                    <div class="pic">
+                        <img src="./Assets/Jacket (1) 1.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <p>
+                            <strong>Pete the cat and the bedtime blues</strong> <br>
+                            Kim Dean
+                        </p>
+                    </div>
                 </div>
-            </article>
-
-            <article>
-                <div class="book-image"><img src="./Assets/Jacket (2) 1.jpg" alt=""></div> 
-                <div class="text">
-                    <h3>The mutual friend</h3>
-                    <p>Carter Bays</p>
+                <div id="book3" class="bks">
+                    <div class="pic">
+                        <img src="./Assets/Jacket (2) 1.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <p>
+                            <strong>The mutual friend</strong> <br>
+                            Carter Bays
+                        </p>
+                    </div>
                 </div>
-            </article>
-
-            <article>
-                <div class="book-image"><img src="./Assets/Jacket (3) 1.jpg" alt=""></div>
-                <div class="text">
-                    <h3>The book with no pictures</h3>
-                    <p>B J Novak</p>
+                <div id="book4" class="bks">
+                    <div class="pic">
+                        <img src="./Assets/Jacket (3) 1.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <p>
+                            <strong>The book with no pictures</strong> <br>
+                            B J Novak
+                        </p>
+                    </div>
                 </div>
-            </article>
-        </div>
-        <div class="arrow"><button class="fas fa-arrow-right"></button></div>
+                <div id="arrow"><i class='fas fa-arrow-right'></i></div>
+            </div>
         </div>
     </div>
-
-    <!-- <div class="container book">
-        <main class="grid">
-                <article>
-                    <img src="./Assets/Jacket.jpeg" alt="">
-                    <div class="text">
-                        <h3>Just another love song</h3>
-                        <p>Kerry Winfrey</p>
-                    </div>
-                </article>
-
-            <article>
-                <img src="./Assets/Jacket (1) 1.jpg" alt="">
-                <div class="text">
-                    <h3>Pete the cat and the bedtime blues</h3>
-                    <p>Kim Dean</p>
-                </div>
-            </article>
-
-            <article>
-                <img src="./Assets/Jacket (2) 1.jpg" alt="">
-                <div class="text">
-                    <h3>The mutual friend</h3>
-                    <p>Carter Bays</p>
-                </div>
-            </article>
-
-            <article>
-                <img src="./Assets/Jacket (3) 1.jpg" alt="">
-                <div class="text">
-                    <h3>The book with no pictures</h3>
-                    <p>B J Novak</p>
-                </div>
-            </article>
-            
-            <div><button class="fas fa-arrow-right"></button></div>
-        </main>
-    </div> -->
+    <!-- js link -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

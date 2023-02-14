@@ -99,6 +99,11 @@ main {
     cursor: pointer;
 }
 
+.top-button:hover {
+    color: var(--main-color);
+    background: var(--clr-gray200);
+}
+
 .middle-button {
     background: white;
     color: var(--main-color);
@@ -168,6 +173,11 @@ main {
     border-radius: 10px;
     font-size: medium;
     cursor: pointer;
+}
+
+#review-btn:hover {
+    color: var(--clr-gray100);
+    background: var(--main-color);
 }
 
 
@@ -325,7 +335,7 @@ u {
 }
 
 .link:hover {
-    color: #856C8B;
+    color: var(--bg-hover-color);
 }
 
 /* END BOOKS CONTENT */
@@ -375,7 +385,7 @@ nav {
 }
 
 /* how to move the logo to the left */
-.nav-item:first-child {
+.logo {
     margin-right: auto;
     margin-left: 2rem;
 }
@@ -397,4 +407,148 @@ nav {
     background: var(--bg-hover-color);
 }
 
+#menu-icon {
+    font-size: 35px;
+    color: var(--main-color);
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links a {
+    /* display: flex; */
+    /* justify-content: flex-end;
+    align-items: center; */
+    margin: 0;
+    transition: all .50s ease;
+    padding: 1rem 0;
+}
+
+#red a {
+    color: #c54115;
+    text-decoration: underline;
+}
+
 /* END OF NAV BAR */
+
+
+/* RESPONSIVE */
+@media (max-width: 1020px) {
+
+    /* Responsive Navbar */
+    #menu-icon {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .links {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 52vh;
+        background: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 5px;
+        transition: all .50s ease;
+    }
+
+    .links a {
+        display: block;
+        margin: 12px 0;
+        color: var(--clr-gray200);
+        padding: 0px 25px;
+        transition: all .50s ease;
+
+    }
+
+    .links a:hover {
+        color: var(--bg-hover-color);
+        transform: translateY(5px);
+    }
+
+    .links a.active {
+        color: white;
+    }
+
+    .links.open {
+        right: 2%;
+    }
+
+    /* END Responsive Navbar */
+
+}
+
+/* Responsive Main Content */
+@media (max-width: 800px) {
+
+    #title,
+    #summary,
+    #ratings,
+    #review,
+    #tag,
+    #books {
+        padding-left: 0;
+    }
+
+    main {
+        background: var(--clr-gray100);
+        grid-area: main;
+        border-radius: var(--main-radius);
+        padding-top: var(--main-padding);
+        padding-left: 0;
+        /* margin-top: 5px; */
+
+        display: grid;
+        grid-template-rows: .45fr 1fr;
+
+        grid-template-areas:
+            "book-img"
+            "book-detail";
+        /* gap: .2rem; */
+    }
+
+    #book-image {
+        margin-right: 0;
+    }
+
+    #book-image img {
+        width: 370px;
+        height: 430px;
+    }
+
+    #book-detail {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .sum-details {
+        margin-right: 0;
+    }
+
+    .reviews {
+        margin-right: 0;
+    }
+
+    .stars {
+        width: 100%;
+    }
+
+    .tag-buttons button {
+        margin-top: 5px;
+    }
+}
+
+/* END Responsive Main Content */
