@@ -791,8 +791,6 @@ select {
         height: 200px;
         width: 120px;
         padding-top: 20px;
-        margin-bottom: 30px;
-        /* padding-right: 30px; */
         padding-right: 10px;
     }
 
@@ -801,8 +799,6 @@ select {
         height: 200px;
         width: 120px;
         padding-top: 20px;
-        /* margin-top: 40px; */
-        /* padding-right: 30px; */
         padding-right: 10px;
     }
 
@@ -812,7 +808,6 @@ select {
         width: 120px;
         padding-top: 20px;
         margin-top: 20px;
-        /* padding-right: 30px; */
         padding-right: 10px;
     }
 }
