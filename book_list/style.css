@@ -799,7 +799,7 @@ select {
         margin-bottom: 60%;
     }
 
-    #book1 img {
+    /* #book1 img {
         display: flex;
         height: 200px;
         width: 120px;
@@ -821,6 +821,5 @@ select {
         width: 120px;
         padding-top: 20px;
         margin-top: 20px;
-        /* padding-right: 10px; */
-    }
+    } */
 }
