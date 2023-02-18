@@ -802,9 +802,10 @@ select {
     #book1 img {
         display: flex;
         height: 200px;
-        width: 120px;
+        /* width: 120px; */
+        width: 15%;
         padding-top: 20px;
-        /* padding-right: 10px; */
+        padding-right: 10px;
     }
 
     #book2 img {
