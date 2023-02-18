@@ -666,6 +666,9 @@ select {
 @media (max-width: 800px) {
 
     /* CONTENT Response */
+    body {
+        overflow-x: hidden;
+    }
 
     #title,
     #search-box,
