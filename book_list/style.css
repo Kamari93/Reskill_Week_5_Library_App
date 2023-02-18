@@ -799,7 +799,7 @@ select {
     } */
 
     #mcontainer1 {
-        height: 5%;
+        margin-bottom: 5%;
     }
 
     #book1 img {
