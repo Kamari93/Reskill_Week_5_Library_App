@@ -784,3 +784,29 @@ select {
     /* END Book Containers */
 
 }
+
+@media (max-width: 500px) {
+    #book1 img {
+        display: flex;
+        height: 200px;
+        width: 120px;
+        padding-top: 20px;
+        /* padding-right: 30px; */
+    }
+
+    #book2 img {
+        display: flex;
+        height: 200px;
+        width: 120px;
+        padding-top: 20px;
+        /* padding-right: 30px; */
+    }
+
+    #book3 img {
+        display: flex;
+        height: 200px;
+        width: 120px;
+        padding-top: 20px;
+        /* padding-right: 30px; */
+    }
+}
