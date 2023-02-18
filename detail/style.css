@@ -581,8 +581,18 @@ nav {
         justify-content: start;
     }
 
+    #pic2 img {
+        width: 70%;
+        height: 40%;
+    }
+
     #pic3 {
         /* display: flex; */
         justify-content: start;
+    }
+
+    #pic3 img {
+        width: 70%;
+        height: 40%;
     }
 }
