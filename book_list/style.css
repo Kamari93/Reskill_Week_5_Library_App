@@ -786,6 +786,10 @@ select {
 }
 
 @media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
     #book1 img {
         display: flex;
         height: 200px;
