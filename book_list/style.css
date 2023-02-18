@@ -794,6 +794,10 @@ select {
         margin-bottom: 100px;
     } */
 
+    .desc {
+        margin-bottom: 30px;
+    }
+
     #book1 img {
         display: flex;
         height: 200px;
