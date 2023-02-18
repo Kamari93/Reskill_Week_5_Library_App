@@ -172,8 +172,7 @@ article i {
 #book1 img {
     display: flex;
     height: 200px;
-    /* width: 120px; */
-    width: 5%;
+    width: 120px;
     padding-top: 20px;
     padding-right: 30px;
 }
