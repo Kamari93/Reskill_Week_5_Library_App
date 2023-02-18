@@ -571,6 +571,10 @@ nav {
         justify-content: start;
     }
 
+    #pic1 img {
+        width: 60%;
+    }
+
     #pic2 {
         /* display: flex; */
         justify-content: start;
