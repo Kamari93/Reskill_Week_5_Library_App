@@ -790,9 +790,9 @@ select {
         overflow-x: hidden;
     }
 
-    #book1 {
+    /* #book1 {
         margin-bottom: 100px;
-    }
+    } */
 
     #book1 img {
         display: flex;
