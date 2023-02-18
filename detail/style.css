@@ -557,7 +557,7 @@ nav {
 @media (max-width: 500px) {
 
     #book-title h2 {
-        font-size: 90px;
+        font-size: 40px;
     }
 
     #book-covers {
