@@ -590,6 +590,10 @@ nav {
         height: 40%;
     }
 
+    #bio2 {
+        width: 72%;
+    }
+
     #pic3 {
         /* display: flex; */
         justify-content: start;
@@ -598,5 +602,9 @@ nav {
     #pic3 img {
         width: 70%;
         height: 40%;
+    }
+
+    #bio3 {
+        width: 72%;
     }
 }
