@@ -790,6 +790,20 @@ select {
         overflow-x: hidden;
     }
 
+    main {
+        display: grid;
+        grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
+        /* grid-template-columns: 1fr .5fr; */
+
+        grid-template-areas:
+            "sortbox"
+            "mcontainer1"
+            "mcontainer2"
+            "mcontainer3"
+            "sidebar";
+        gap: .25rem;
+    }
+
 
 
 
