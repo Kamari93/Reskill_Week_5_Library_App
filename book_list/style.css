@@ -790,23 +790,6 @@ select {
         overflow-x: hidden;
     }
 
-    #book1 {
-        width: 100px;
-    }
-
-    #book1 img {
-        padding-right: 0;
-        width: 25%;
-    }
-
-    #book2 img {
-        padding-right: 0;
-        width: 25%;
-    }
-
-    #book1 img {
-        width: 25%;
-    }
 
 
 
