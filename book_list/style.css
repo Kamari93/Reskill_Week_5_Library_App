@@ -792,6 +792,7 @@ select {
         width: 120px;
         padding-top: 20px;
         /* padding-right: 30px; */
+        padding-right: 10px;
     }
 
     #book2 img {
@@ -800,6 +801,7 @@ select {
         width: 120px;
         padding-top: 20px;
         /* padding-right: 30px; */
+        padding-right: 10px;
     }
 
     #book3 img {
@@ -808,5 +810,6 @@ select {
         width: 120px;
         padding-top: 20px;
         /* padding-right: 30px; */
+        padding-right: 10px;
     }
 }
