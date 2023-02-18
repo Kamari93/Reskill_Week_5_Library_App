@@ -309,3 +309,21 @@ nav {
 }
 
 /* END Responsive Main Content */
+
+@media(max-width: 500px) {
+    #log-in {
+        width: 100%;
+    }
+
+    input {
+        margin-top: 0px;
+        /* width: 70%; */
+        width: 90%;
+    }
+
+    input[type=submit] {
+        /* width: 15%; */
+        width: 100px;
+        /* margin-left: 160px; */
+    }
+}
