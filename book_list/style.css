@@ -804,41 +804,4 @@ select {
         gap: .25rem;
     }
 
-
-
-
-    /* #mcontainer1 {
-        margin-bottom: 45%;
-    }
-
-    #mcontainer2 {
-        margin-bottom: 60%;
-    } */
-
-
-
-    /* #book1 img {
-        display: flex;
-        height: 200px;
-        width: 120px;
-        width: 120px;
-        padding-top: 20px;
-        padding-right: 10px;
-    }
-
-    #book2 img {
-        display: flex;
-        height: 200px;
-        width: 120px;
-        padding-top: 20px;
-        padding-right: 10px;
-    }
-
-    #book3 img {
-        display: flex;
-        height: 200px;
-        width: 120px;
-        padding-top: 20px;
-        margin-top: 20px;
-    } */
 }
