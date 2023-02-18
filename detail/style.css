@@ -553,3 +553,16 @@ nav {
 }
 
 /* END Responsive Main Content */
+
+@media (max-width: 500px) {
+    #book-covers {
+
+        /* grid-column: .2fr .2fr .2fr; */
+        grid-row: 1fr 1fr 1fr;
+        grid-template-areas:
+            "book-1"
+            "book-2"
+            "book-3";
+        gap: .2rem;
+    }
+}
