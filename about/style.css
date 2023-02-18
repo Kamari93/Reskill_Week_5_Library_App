@@ -352,6 +352,7 @@ p {
     .container {
         display: grid;
         height: 100vh;
+        width: 97vw;
         /* width: 98vw; */
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, 1fr);
