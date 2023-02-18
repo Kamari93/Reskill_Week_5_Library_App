@@ -21,6 +21,7 @@ body {
 .container {
     display: grid;
     height: 100vh;
+    width: 97vw;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .25fr 1.6fr;
     grid-template-areas:
