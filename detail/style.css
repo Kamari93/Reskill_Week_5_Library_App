@@ -576,6 +576,10 @@ nav {
         height: 40%;
     }
 
+    #bio1 {
+        width: 70%;
+    }
+
     #pic2 {
         /* display: flex; */
         justify-content: start;
