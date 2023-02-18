@@ -556,7 +556,7 @@ nav {
 
 @media (max-width: 500px) {
 
-    #book-title {
+    #book-title h2 {
         width: 100%;
     }
 
