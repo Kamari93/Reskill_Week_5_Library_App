@@ -804,4 +804,8 @@ select {
         gap: .25rem;
     }
 
+    #side-bar {
+        width: 95%;
+    }
+
 }
