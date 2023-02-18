@@ -795,7 +795,7 @@ select {
     } */
 
     article {
-        height: 500px;
+        padding-bottom: 500px;
     }
 
     #book1 img {
