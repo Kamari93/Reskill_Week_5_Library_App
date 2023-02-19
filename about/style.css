@@ -476,6 +476,15 @@ p {
 }
 
 @media (max-width: 500px) {
+
+    main {
+        width: 96%;
+    }
+
+    #title {
+        width: 95%;
+    }
+
     #main-content1 {
         width: 95%;
     }
