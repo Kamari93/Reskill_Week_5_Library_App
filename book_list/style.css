@@ -811,6 +811,14 @@ select {
         width: 100%;
     }
 
+    #search-box input {
+        font-size: 85%;
+    }
+
+    #sort-container {
+        font-size: 85%;
+    }
+
     .links {
         height: 350px;
     }
