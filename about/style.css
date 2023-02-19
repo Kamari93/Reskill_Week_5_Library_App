@@ -496,6 +496,8 @@ p {
 
     #main-content2 {
         width: 95vw;
+        height: 315px;
+        background-size: cover;
     }
 
     #content1 {
