@@ -500,8 +500,9 @@ p {
 
     #content1 {
         width: 95vw;
-        /* background-size: 100%; */
-        background-size: 407px 255px;
+        height: 255px;
+        background-size: cover;
+        /* background-size: 407px 255px; */
     }
 
     #content2 {
