@@ -499,17 +499,20 @@ p {
 
     #content1 {
         width: 95vw;
-        background-size: 100%;
+        /* background-size: 100%; */
+        background-size: 407px 255px;
     }
 
     #content2 {
         width: 95vw;
-        background-size: 100%;
+        /* background-size: 100%; */
+        background-size: 407px 255px;
     }
 
     #content3 {
         width: 95vw;
-        background-size: 100%;
+        /* background-size: 100%; */
+        background-size: 407px 255px;
     }
 
     #sidebar {
