@@ -474,3 +474,9 @@ p {
         border-radius: 5px;
     }
 }
+
+@media (max-width: 500px) {
+    #main-content1 {
+        width: 95vw;
+    }
+}
