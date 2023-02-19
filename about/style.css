@@ -481,31 +481,31 @@ p {
         width: 97vw;
     }
 
-    /* #title {
-        width: 95%;
+    #title {
+        width: 95vw;
     }
 
     #main-content1 {
-        width: 95%;
+        width: 95vw;
     }
 
     #main-content2 {
-        width: 95%;
+        width: 95vw;
     }
 
     #content1 {
-        width: 95%;
+        width: 95vw;
     }
 
     #content2 {
-        width: 95%;
+        width: 95vw;
     }
 
     #content3 {
-        width: 95%;
+        width: 95vw;
     }
 
     #sidebar {
-        width: 95%;
-    } */
+        width: 95vw;
+    }
 }
