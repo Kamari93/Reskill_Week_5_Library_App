@@ -477,6 +477,26 @@ p {
 
 @media (max-width: 500px) {
     #main-content1 {
-        width: 95vw;
+        width: 95%;
+    }
+
+    #main-content2 {
+        width: 95%;
+    }
+
+    #content1 {
+        width: 95%;
+    }
+
+    #content2 {
+        width: 95%;
+    }
+
+    #content3 {
+        width: 95%;
+    }
+
+    #sidebar {
+        width: 95%;
     }
 }
