@@ -451,6 +451,11 @@ nav {
 }
 
 @media (max-width: 500px) {
+
+    .search-box input {
+        font-size: 80%;
+    }
+
     .links {
         height: 350px;
     }
