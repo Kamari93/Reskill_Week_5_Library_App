@@ -336,4 +336,14 @@ nav {
     main {
         width: 90vw;
     }
+
+    table {
+        width: 90%;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 30%;
+    }
 }
