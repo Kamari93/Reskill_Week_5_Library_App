@@ -816,6 +816,15 @@ select {
         color: var(--clr-gray200);
     }
 
+    .a-border {
+        /* background: #856C8B; */
+        /* width: 71vw; */
+        /* height: 50px; */
+        /* display: flex; */
+        justify-content: flex-start;
+        /* align-items: center; */
+    }
+
 
     .links {
         height: 350px;
