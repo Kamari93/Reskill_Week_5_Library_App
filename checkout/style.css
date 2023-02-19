@@ -334,6 +334,6 @@ nav {
 
 @media (max-width: 500px) {
     main {
-        width: 95%;
+        width: 90vw;
     }
 }
