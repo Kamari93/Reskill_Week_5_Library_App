@@ -332,6 +332,8 @@ nav {
 
 /* END Main Content Responsive */
 
-/* @media (max-width: 500px) {
-
-} */
+@media (max-width: 500px) {
+    main {
+        width: 95%;
+    }
+}
