@@ -517,5 +517,6 @@ p {
 
     #sidebar {
         width: 95vw;
+        height: 320px;
     }
 }
