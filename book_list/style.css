@@ -815,7 +815,7 @@ select {
         font-size: 80%;
     }
 
-    #sort-container {
+    #sort-container select {
         font-size: 85%;
     }
 
