@@ -813,12 +813,9 @@ select {
 
     #search-box input {
         font-size: 80%;
+        color: var(--clr-gray200);
     }
 
-    #sort-container select {
-        /* font-size: 50%; */
-        font-size: x-small;
-    }
 
     .links {
         height: 350px;
