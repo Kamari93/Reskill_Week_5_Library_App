@@ -816,7 +816,7 @@ select {
     }
 
     #sort-container select {
-        font-size: 85%;
+        font-size: 50%;
     }
 
     .links {
