@@ -389,6 +389,9 @@ input[type="radio"] {
     cursor: pointer;
 }
 
+.box .fas {
+    color: var(--main-color);
+}
 
 
 /* END SIDEBAR CONTENT */
