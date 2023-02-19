@@ -328,4 +328,8 @@ nav {
         /* margin-left: 90px; */
         /* margin-left: 160px; */
     }
+
+    .links {
+        height: 350px;
+    }
 }

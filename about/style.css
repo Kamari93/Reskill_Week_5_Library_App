@@ -523,4 +523,8 @@ p {
         width: 95vw;
         height: 335px;
     }
+
+    .links {
+        height: 350px;
+    }
 }

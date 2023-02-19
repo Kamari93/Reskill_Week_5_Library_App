@@ -449,3 +449,9 @@ nav {
 
     /* END Bottom Responsive */
 }
+
+@media (max-width: 500px) {
+    .links {
+        height: 350px;
+    }
+}

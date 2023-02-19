@@ -808,4 +808,8 @@ select {
         width: 100%;
     }
 
+    .links {
+        height: 350px;
+    }
+
 }

@@ -612,4 +612,8 @@ nav {
     #bio3 {
         width: 72%;
     }
+
+    .links {
+        height: 350px;
+    }
 }
