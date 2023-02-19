@@ -477,6 +477,10 @@ p {
 
 @media (max-width: 500px) {
 
+    .containter {
+        gap: 0;
+    }
+
     main {
         width: 97vw;
     }
