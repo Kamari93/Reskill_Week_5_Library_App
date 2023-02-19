@@ -495,17 +495,17 @@ p {
 
     #content1 {
         width: 95vw;
-        height: 90vh;
+        background-size: 100%;
     }
 
     #content2 {
         width: 95vw;
-        height: 90vh;
+        background-size: 100%;
     }
 
     #content3 {
         width: 95vw;
-        height: 90vh;
+        background-size: 100%;
     }
 
     #sidebar {
