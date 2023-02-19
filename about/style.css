@@ -478,7 +478,7 @@ p {
 @media (max-width: 500px) {
 
     main {
-        width: 96%;
+        width: 97vw;
     }
 
     #title {
