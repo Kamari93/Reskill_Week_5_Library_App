@@ -521,7 +521,7 @@ p {
 
     #sidebar {
         width: 95vw;
-        height: 335px;
+        /* height: 335px; */
     }
 
     .links {
