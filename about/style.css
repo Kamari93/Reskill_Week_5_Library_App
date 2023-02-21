@@ -524,6 +524,12 @@ p {
         /* height: 335px; */
     }
 
+    .side {
+        /* column-gap: 26vw; */
+        column-width: 30%;
+        width: 85vw;
+    }
+
     .links {
         height: 350px;
     }
